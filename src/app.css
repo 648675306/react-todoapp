@@ -1,0 +1,68 @@
+.todo {
+    max-width: 330px;
+    margin:3rem auto;
+    padding: 2rem 2rem 3rem;
+    background: #f9f9f9;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list {
+    list-style:none;
+    background: #fff;
+    padding: 0;
+}
+.list li {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+}
+.list li input[type="checkbox"] {
+    margin-right: .5rem;
+}
+
+.btn-del {
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    float: right;
+    font-size: 12px;
+    padding: 2px 12px;
+    background-color: transparent;
+}
+.btn-del:hover {
+    color: #0074d9;
+}
+
+.btn-add {
+    outline: 0;
+    cursor: pointer;
+    border:none;
+    margin-left: 1rem;
+    background-color:#0074d9;
+    color: #fff;
+    border-radius:.25rem;
+    padding:.28rem .8rem;
+    font-size:.875rem;
+}
+.btn-add:hover {
+    background-color: #004b8d;
+}
+
+.input {
+    padding:.35rem .8rem;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #495057;
+    background-color :#fff;
+    border:1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.complete {
+    background-color: #fafcda;
+}
+.complete span {
+    text-decoration: line-through;
+}
