@@ -2,6 +2,7 @@
 
 使用 React 简单实现一个待办列表的功能
 
+![react-todoapp](https://github.com/chuondev/react-todoapp/blob/main/public/todoapp.png)
 
 ## 如何运行
 
